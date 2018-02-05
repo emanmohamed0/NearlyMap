@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.emyeraky.nearlymap.WidgetItem">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/cd"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:minHeight="?attr/actionBarSize">
+
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@string/common_google_play_services_update_text"
+                android:text="@string/CoMfortO"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#ffff" />
+        </android.support.v7.widget.Toolbar>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/card"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    card_view:cardBackgroundColor="@android:color/white"
+                    card_view:cardCornerRadius="4dp"
+                    card_view:contentPaddingBottom="20dp"
+                    card_view:contentPaddingLeft="15dp"
+                    card_view:contentPaddingRight="15dp"
+                    card_view:contentPaddingTop="20dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/image"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/cooker" />
+
+                        <TextView
+                            android:id="@+id/restuarant"
+                            style="@style/Base.TextAppearance.AppCompat.Body2"
+                            android:layout_width="match_parent"
+                            android:layout_height="?attr/listPreferredItemHeight"
+                            android:layout_marginRight="10dp"
+                            android:gravity="center_vertical"
+                            android:padding="8dp"
+                            android:text="@string/Restuarant"
+                            android:textColor="@color/black" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+                <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    card_view:cardBackgroundColor="@android:color/white"
+                    card_view:cardCornerRadius="4dp"
+                    card_view:contentPaddingBottom="20dp"
+                    card_view:contentPaddingLeft="30dp"
+                    card_view:contentPaddingTop="20dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/image1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/hotell" />
+
+                        <TextView
+                            android:id="@+id/hotel"
+                            style="@style/Base.TextAppearance.AppCompat.Body2"
+                            android:layout_width="match_parent"
+                            android:layout_height="?attr/listPreferredItemHeight"
+                            android:layout_marginRight="44dp"
+                            android:gravity="center_vertical"
+                            android:padding="8dp"
+                            android:text="@string/Hotel"
+                            android:textColor="@color/black" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    card_view:cardBackgroundColor="@android:color/white"
+                    card_view:cardCornerRadius="4dp"
+                    card_view:contentPaddingBottom="20dp"
+                    card_view:contentPaddingLeft="10dp"
+                    card_view:contentPaddingRight="20dp"
+                    card_view:contentPaddingTop="20dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/image2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/airplane" />
+
+                        <TextView
+                            android:id="@+id/cafe"
+                            style="@style/Base.TextAppearance.AppCompat.Body2"
+                            android:layout_width="match_parent"
+                            android:layout_height="?attr/listPreferredItemHeight"
+                            android:layout_marginRight="0dp"
+                            android:gravity="center_vertical"
+                            android:padding="5dp"
+                            android:text="@string/Travelagency"
+                            android:textColor="@color/black" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp"
+                    app:contentPaddingBottom="20dp"
+                    app:contentPaddingLeft="20dp"
+                    app:contentPaddingRight="20dp"
+                    app:contentPaddingTop="20dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/image3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/aidkit" />
+
+                        <TextView
+                            android:id="@+id/hospital"
+                            style="@style/Base.TextAppearance.AppCompat.Body2"
+                            android:layout_width="match_parent"
+                            android:layout_height="?attr/listPreferredItemHeight"
+                            android:layout_marginRight="18dp"
+                            android:gravity="center_vertical"
+                            android:padding="8dp"
+                            android:text="@string/Hospital"
+                            android:textColor="@color/black" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+    <!--</FrameLayout>-->
+</android.support.design.widget.CoordinatorLayout>

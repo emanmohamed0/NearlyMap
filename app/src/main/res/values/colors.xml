@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#AB47BC</color>
+    <color name="colorPrimaryDark">#7B1FA2</color>
+
+    <color name="colorAccent">#FF4081</color>
+
+    <!--<color name="PrimaryColor">#AB47BC</color>-->
+    <!--<color name="PrimaryDarkColor">#7B1FA2</color>-->
+
+    <color name="black">#000000</color>
+    <color name="show">#212121</color>
+    <color name="back">#cccccc</color>
+    <color name="widget">#F06292</color>
+    <color name="white">#fff</color>
+    <color name="color_shadow">#44000000</color>
+    <color name="color_primary_red">#f44336</color>
+    <color name="color_primary_red_dark">#d32f2f</color>
+    <color name="refresh">#008000</color>
+    <color name="refresh1">#008080</color>
+    <color name="menu_shadowColor">#66000000</color>
+    <color name="menu_labels_textColor">#FFFFFF</color>
+    <color name="refresh2">#800088</color>
+
+</resources>
